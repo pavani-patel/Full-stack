@@ -1,6 +1,6 @@
 import ollama
 import streamlit as st
-st.title("Welcome to my chatBot App!!")
+st.title(":red[ Welcome to my chatBot App!!!]")
 with st.sidebar:
     uploaded_file = st.file_uploader("Upload a text file..")
     if uploaded_file:

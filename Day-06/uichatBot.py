@@ -1,13 +1,13 @@
 import ollama
 import streamlit as st
-st.markdown(":red[welcome to my ChatBot App!!!]")
+st.title(":red[welcome to my ChatBot App!!!]")
 with st.sidebar:
     st.header(":blue[Chat Settings]")
     if st.button("clear chat🗑️ "):
         st.session_state.messages=[]
         st.success("Chat cleared")
     personalities = {
-    "Friend": "Answer the questions in a friendly and casual manner. Give answers in two lines.",
+    "Friend ": "Answer the questions in a friendly and casual manner. Give answers in two lines.",
     "Teacher": "Answer the questions in a simple and educational manner.",
     "Professional": "Answer the questions in a professional and clear manner."
 }
